@@ -52,7 +52,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.CustomView
 
                 .placeholder((R.drawable.ic_launcher_background))
 
-                .error(R.drawable.ic_launcher_background)
+                .error(R.mipmap.ic_image_not_found)
 
                 .into(holder.cakeImage);
     }
